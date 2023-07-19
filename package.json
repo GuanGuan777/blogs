@@ -1,0 +1,26 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000b\u0000l\u0000o\u0000g\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "deploy":"sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuanGuan777/blogs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuanGuan777/blogs/issues"
+  },
+  "homepage": "https://github.com/GuanGuan777/blogs#readme",
+  "devDependencies": {
+    "vitepress": "1.0.0-beta.5"
+  }
+}
